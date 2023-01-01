@@ -10,27 +10,32 @@ pipeline {
     }
     stage('Development'){
        steps {
-         echo "Hello World"
+         echo "Development"
+           sleep 4
        }
     }
     stage('Testing'){
        steps {
-         echo "Hello World"
+         echo "Testing"
+           sleep 4
        }
     }
     stage('QA Testing'){
        steps {
-         echo "Hello World"
+         echo "QA Testing"
+           sleep 4
        }
     }
     stage('Deploy'){
        steps {
-         echo "Hello World"
+         echo "Deploy"
+           sleep 4
        }
     }
     stage('Production'){
        steps {
-         echo "Hello World"
+         echo "Production"
+           sleep 4
        }
     }
     
